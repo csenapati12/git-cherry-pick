@@ -1,6 +1,6 @@
 #current branch
 target_branch ="develop"
-if[[$1]]; then
+if [[$1]]; then
     target_branch="$1";
 fi
 commit=$(git rev-parse HEAD);
