@@ -1,3 +1,4 @@
+#current branch
 target_branch ="develop"
 if[[$1]]; then
     target_branch="$1";
