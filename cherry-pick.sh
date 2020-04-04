@@ -8,7 +8,7 @@ commit_short=$(git rev-parse --short HEAD);
 current_branch=$(git rev-parse --abbrev-ref HEAD);
 
 git checkout "${target_branch}";
-got pull 2> dev/null;
+gIt pull 2> dev/null;
 git cherry-pick "${commit}";
 git push 2> /dev/null;
 git checkout "${current_branch}";
